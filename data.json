@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "Description...",
+            "technologies": ["Vanilla JavaScript"],
+            "live_link": "https://nkriedner.github.io/fullstack-techdegree-project-1/",
+            "github_link": "https://github.com/nkriedner/fullstack-techdegree-project-1",
+            "image_urls": []
+        }
+    ]
+}

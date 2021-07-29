@@ -6,7 +6,7 @@ app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
     console.log("Get request to / route.");
-    res.send("<h1>Home!!!</h1>");
+    res.render("index");
 });
 
 app.get("/about", (req, res) => {

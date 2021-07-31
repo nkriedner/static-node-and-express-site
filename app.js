@@ -4,7 +4,7 @@ const data = require("./data.json");
 const app = express();
 
 app.set("view engine", "pug");
-app.use(express.static("public"));
+app.use("/static", express.static("public"));
 
 app.get("/", (req, res) => {
     console.log("Get request to / route.");

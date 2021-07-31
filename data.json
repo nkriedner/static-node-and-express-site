@@ -4,9 +4,45 @@
             "id": 0,
             "project_name": "Random Quote Generator",
             "description": "Description...",
-            "technologies": ["Vanilla JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/fullstack-techdegree-project-1/",
             "github_link": "https://github.com/nkriedner/fullstack-techdegree-project-1",
+            "image_urls": []
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://nkriedner.github.io/data-pagination-and-filtering/",
+            "github_link": "https://github.com/nkriedner/data-pagination-and-filtering",
+            "image_urls": []
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://nkriedner.github.io/interactive-form-with-regular-expressions/",
+            "github_link": "https://github.com/nkriedner/interactive-form-with-regular-expressions",
+            "image_urls": []
+        },
+        {
+            "id": 3,
+            "project_name": "Game Show App",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://nkriedner.github.io/oop-game-show-app/",
+            "github_link": "https://github.com/nkriedner/oop-game-show-app",
+            "image_urls": []
+        },
+        {
+            "id": 4,
+            "project_name": "Public Api Requests",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://nkriedner.github.io/public-api-requests/",
+            "github_link": "https://github.com/nkriedner/public-api-requests",
             "image_urls": []
         }
     ]

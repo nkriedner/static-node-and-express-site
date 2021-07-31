@@ -1,4 +1,5 @@
 const express = require("express");
+const projectData = require("./data.json");
 
 const app = express();
 
@@ -6,6 +7,7 @@ app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
     console.log("Get request to / route.");
+    console.log("projectData:", projectData);
     res.render("index");
 });
 

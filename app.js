@@ -1,5 +1,5 @@
 const express = require("express");
-const projectData = require("./data.json");
+const data = require("./data.json");
 
 const app = express();
 
@@ -8,7 +8,10 @@ app.use(express.static("public"));
 
 app.get("/", (req, res) => {
     console.log("Get request to / route.");
-    console.log("projectData:", projectData);
+    // console.log("data:", data);
+    // console.log("data.projects:", data.projects);
+    res.locals.projects = data.projects;
+    // console.log("projects:", projects);
     res.render("index");
 });
 

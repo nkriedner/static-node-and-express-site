@@ -7,7 +7,11 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/fullstack-techdegree-project-1/",
             "github_link": "https://github.com/nkriedner/fullstack-techdegree-project-1",
-            "image_urls": []
+            "image_urls": [
+                "/static/images/random-quote-generator.JPG",
+                "/static/images/random-quote-generator2.JPG",
+                "/static/images/random-quote-generator3.JPG"
+            ]
         },
         {
             "id": 1,
@@ -16,7 +20,11 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/nkriedner/data-pagination-and-filtering",
-            "image_urls": []
+            "image_urls": [
+                "/static/images/data-pagination-and-filtering.JPG",
+                "/static/images/data-pagination-and-filtering2.JPG",
+                "/static/images/data-pagination-and-filtering3.JPG"
+            ]
         },
         {
             "id": 2,
@@ -25,7 +33,11 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/interactive-form-with-regular-expressions/",
             "github_link": "https://github.com/nkriedner/interactive-form-with-regular-expressions",
-            "image_urls": []
+            "image_urls": [
+                "/static/images/interactive-form.JPG",
+                "/static/images/interactive-form2.JPG",
+                "/static/images/interactive-form3.JPG"
+            ]
         },
         {
             "id": 3,
@@ -34,7 +46,12 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/oop-game-show-app/",
             "github_link": "https://github.com/nkriedner/oop-game-show-app",
-            "image_urls": []
+            "image_urls": [
+                "/static/images/game-show-app.JPG",
+                "/static/images/game-show-app2.JPG",
+                "/static/images/game-show-app3.JPG",
+                "/static/images/game-show-app4.JPG"
+            ]
         },
         {
             "id": 4,
@@ -43,7 +60,12 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/public-api-requests/",
             "github_link": "https://github.com/nkriedner/public-api-requests",
-            "image_urls": []
+            "image_urls": [
+                "/static/images/public-api-requests.JPG",
+                "/static/images/public-api-requests2.JPG",
+                "/static/images/public-api-requests3.JPG",
+                "/static/images/public-api-requests4.JPG"
+            ]
         }
     ]
 }

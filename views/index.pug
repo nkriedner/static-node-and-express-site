@@ -4,10 +4,7 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
     h1 My JavaScript Portfolio
-
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p These are the main projects I had to complete for the Fullstack JavaScript Techdegree at Teamtreehouse.
 
 
@@ -16,7 +13,6 @@ block content
 
       //- Use the Pug `each` iterator to loop over the projects in your data file 
       each project in projects 
-        h2= project.project_name 
       
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
           //- The paths in the link's href and img's src attributes
@@ -25,6 +21,7 @@ block content
 
         .cell
           a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
+            //- img.thumbnail(src='https://placehold.it/550x550', alt='')
+            img.thumbnail(src=project.image_urls[0], alt='')
+            h5= project.project_name
 

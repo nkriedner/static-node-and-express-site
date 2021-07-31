@@ -8,10 +8,7 @@ app.use("/static", express.static("public"));
 
 app.get("/", (req, res) => {
     console.log("Get request to / route.");
-    // console.log("data:", data);
-    // console.log("data.projects:", data.projects);
     res.locals.projects = data.projects;
-    // console.log("projects:", projects);
     res.render("index");
 });
 

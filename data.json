@@ -9,8 +9,9 @@
             "github_link": "https://github.com/nkriedner/fullstack-techdegree-project-1",
             "image_urls": [
                 "/static/images/random-quote-generator.JPG",
-                "/static/images/random-quote-generator2.JPG",
-                "/static/images/random-quote-generator3.JPG"
+                "/static/images/random-quote-generator2.png",
+                "/static/images/random-quote-generator3.png",
+                "/static/images/random-quote-generator4.png"
             ]
         },
         {
@@ -22,8 +23,9 @@
             "github_link": "https://github.com/nkriedner/data-pagination-and-filtering",
             "image_urls": [
                 "/static/images/data-pagination-and-filtering.JPG",
-                "/static/images/data-pagination-and-filtering2.JPG",
-                "/static/images/data-pagination-and-filtering3.JPG"
+                "/static/images/data-pagination-and-filtering2.png",
+                "/static/images/data-pagination-and-filtering3.png",
+                "/static/images/data-pagination-and-filtering4.png"
             ]
         },
         {
@@ -35,8 +37,9 @@
             "github_link": "https://github.com/nkriedner/interactive-form-with-regular-expressions",
             "image_urls": [
                 "/static/images/interactive-form.JPG",
-                "/static/images/interactive-form2.JPG",
-                "/static/images/interactive-form3.JPG"
+                "/static/images/interactive-form2.png",
+                "/static/images/interactive-form3.png",
+                "/static/images/interactive-form4.png"
             ]
         },
         {
@@ -48,9 +51,9 @@
             "github_link": "https://github.com/nkriedner/oop-game-show-app",
             "image_urls": [
                 "/static/images/game-show-app.JPG",
-                "/static/images/game-show-app2.JPG",
-                "/static/images/game-show-app3.JPG",
-                "/static/images/game-show-app4.JPG"
+                "/static/images/game-show-app2.png",
+                "/static/images/game-show-app3.png",
+                "/static/images/game-show-app4.png"
             ]
         },
         {
@@ -62,9 +65,9 @@
             "github_link": "https://github.com/nkriedner/public-api-requests",
             "image_urls": [
                 "/static/images/public-api-requests.JPG",
-                "/static/images/public-api-requests2.JPG",
-                "/static/images/public-api-requests3.JPG",
-                "/static/images/public-api-requests4.JPG"
+                "/static/images/public-api-requests2.png",
+                "/static/images/public-api-requests3.png",
+                "/static/images/public-api-requests4.png"
             ]
         }
     ]

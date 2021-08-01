@@ -16,4 +16,12 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
+app.get("/project/:id", (req, res) => {
+    res.locals.projects = data.projects;
+    const id = parseInt(req.params.id);
+    console.log(typeof id);
+    res.render("project", { id });
+    // res.send("<h1>Project " + id + "</h1>");
+});
+
 app.listen(3000, () => console.log("App is running on port 3000..."));

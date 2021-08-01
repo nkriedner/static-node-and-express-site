@@ -3,6 +3,9 @@ extends layout.pug
 block content 
 
     //- h1 ERROR 500
-    p error.pug
-    h1= `${err.message} - Status: ${err.status}`
-    p= err.stack
+    .error
+        h1= `${err.message} (Status: ${err.status})`
+        br
+        hr
+        br
+        p= err.stack

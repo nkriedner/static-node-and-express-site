@@ -2,7 +2,10 @@ extends layout.pug
 
 block content 
 
-    //- h1 PAGE NOT FOUND, mate!
-    p page-not-found.pug
-    h1= `${err.message} - Status: ${err.status}`
-    p= err.stack
+    .error
+        h1= `${err.message} (Status: ${err.status})`
+        a.btn-link(href="/") Back to Home
+        br
+        hr
+        br
+        p= err.stack

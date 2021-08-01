@@ -7,7 +7,6 @@ app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
 app.get("/", (req, res) => {
-    console.log("Get request to / route.");
     res.locals.projects = data.projects;
     res.render("index");
 });
@@ -16,46 +15,48 @@ app.get("/about", (req, res) => {
     res.render("about");
 });
 
-app.get("/project/:id", (req, res) => {
+app.get("/project/:id", (req, res, next) => {
     res.locals.projects = data.projects;
     const id = parseInt(req.params.id);
-    console.log("id:", id);
-    console.log("typeof id:", typeof id);
-    console.log("data.projects[id]:", data.projects[id]);
-    // Check if id is a number AND not smaller or larger than the length of the projects array
-    // if (isNaN(req.params.id)) {
-    //     next();
-    //     // res.redirect("/project/0");
-    // }
+
     if (data.projects[id] != undefined) {
         res.render("project", { id });
     } else {
-        console.log("ERRRRRRRROOORR!!!!");
-        const err = new Error();
-        err.status = 404;
-        err.message = "Sorry, but this project does not exist.";
-        next(err);
+        console.log("ERROR: This project id does not exist");
+        const error = new Error();
+        error.status = 404;
+        error.message = "Sorry, but this project does not exist.";
+        next(error);
     }
-    // res.send("<h1>Project " + id + "</h1>");
+});
+
+app.get("/error", (req, res) => {
+    console.log("Custom sample /error route called");
+    const error = new Error();
+    error.message = "Custom 500 error thrown";
+    error.status = 500;
+    throw error;
 });
 
 app.use((req, res, next) => {
-    // const err = new Error("Not Found");
-    // err.status = 404;
-    // next(err);
-    res.status(404).res.render("page-not-found");
+    console.error("404 error handler called...");
+    const err = new Error();
+    err.status = 404;
+    err.message = "Looks like this page does not exist...";
+    next(err);
 });
 
 app.use((err, req, res, next) => {
+    console.error("Global error handler called");
     if (err.status === 404) {
-        res.status(404).res.render("page-not-found");
+        res.status(404).render("page-not-found", { err });
     } else {
         err.message = err.message || "Something went wrong on the server";
         res.status(err.status || 500).render("error", { err });
     }
-    res.locals.error = err;
-    res.status(err.status);
-    res.render("error");
+    // res.locals.error = err;
+    // res.status(err.status);
+    // res.render("error");
 });
 
-app.listen(3000, () => console.log("App is running on port 3000..."));
+app.listen(3000, () => console.log("App is running on port 3000."));

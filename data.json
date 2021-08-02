@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "Description...",
+            "description": "This inspiring little site dynamically renders random quotes, either upon button click or after a certain time interval. It was the first project task I completed for Teamtreehouse's \"Fullstack JavaScript Techdegree\".",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/fullstack-techdegree-project-1/",
             "github_link": "https://github.com/nkriedner/fullstack-techdegree-project-1",
@@ -17,7 +17,7 @@
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "Description...",
+            "description": "The task for this second project task of Teamtreehouse's \"Fullstack JavaScript Techdegree\" was to present given data (a list of student objects) on the page, include pagination buttons at the bottom and a search bar at the top. In the search bar the user can type in any letter which will show all student names containing the letter or combination of letters in their names.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/data-pagination-and-filtering/",
             "github_link": "https://github.com/nkriedner/data-pagination-and-filtering",
@@ -31,8 +31,8 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "Description...",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "description": "For this third project task of Teamtreehouse's \"Fullstack JavaScript Techdegree\" I created an extensive interactive form experience on various levels using JavaScript, regular expressions and the knowledge about accessibility.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Accessibility"],
             "live_link": "https://nkriedner.github.io/interactive-form-with-regular-expressions/",
             "github_link": "https://github.com/nkriedner/interactive-form-with-regular-expressions",
             "image_urls": [
@@ -45,7 +45,7 @@
         {
             "id": 3,
             "project_name": "Game Show App",
-            "description": "Description...",
+            "description": "This project is my solution to the fourth task of Teamtreehouse's \"Fullstack JavaScript Techdegree\". I created a browser-based, word guessing game using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
             "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
             "live_link": "https://nkriedner.github.io/oop-game-show-app/",
             "github_link": "https://github.com/nkriedner/oop-game-show-app",
@@ -59,7 +59,7 @@
         {
             "id": 4,
             "project_name": "Public Api Requests",
-            "description": "Description...",
+            "description": "For this fifth project task of Teamtreehouse's \"Fullstack JavaScript Techdegree\" I built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. I used a Random User Generator API to grab information for 12 random \"employees,\". I then used that data to build an employee directory listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name opens a modal window with more detailed information, such as the employee’s birthday and address.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -78,8 +78,8 @@
         {
             "id": 5,
             "project_name": "Wine Shop Site",
-            "description": "Description...",
-            "technologies": ["HTML", "CSS"],
+            "description": "For the famous wine shop \"Weinmarie\" in Berlin-Prenzlauerberg I built this presentational info site using pure HTML and CSS, without any framework or templates. I also designed the complete site and its color scheme myself.",
+            "technologies": ["HTML", "CSS", "UI Design"],
             "live_link": "http://www.weinmarie.de/",
             "github_link": "",
             "image_urls": [
@@ -92,7 +92,7 @@
         {
             "id": 6,
             "project_name": "Personal Profile Site",
-            "description": "Description...",
+            "description": "The task for this first project of Teamtreehouse's \"Frontend Web Development Techdegree\" was to create a personal profile page using HTML and CSS.",
             "technologies": ["HTML", "CSS"],
             "live_link": "https://nkriedner.github.io/fwd-techdegree-project-1/",
             "github_link": "https://github.com/nkriedner/fwd-techdegree-project-1",
@@ -106,7 +106,7 @@
         {
             "id": 7,
             "project_name": "Mobile First Responsive Layout",
-            "description": "Description...",
+            "description": "For this second project of Teamtreehouse's \"Frontend Web Development Techdegree\" I had to built a mobile-responsive site using HTML, CSS and media queries for 3 different screen sizes, following the mobile-first approach.",
             "technologies": ["HTML", "CSS"],
             "live_link": "https://nkriedner.github.io/fwd-techdegree-project-2/",
             "github_link": "https://github.com/nkriedner/fwd-techdegree-project-2",
@@ -120,7 +120,7 @@
         {
             "id": 8,
             "project_name": "Online Registration Form",
-            "description": "Description...",
+            "description": "My task for this second project of Teamtreehouse's \"Frontend Web Development Techdegree\" was to create a newsletter form, showing the many different possibilities with HTML form elements, as well as how to style them.",
             "technologies": ["HTML", "CSS"],
             "live_link": "https://nkriedner.github.io/fwd-techdegree-project-3/",
             "github_link": "https://github.com/nkriedner/fwd-techdegree-project-3",
@@ -134,7 +134,7 @@
         {
             "id": 9,
             "project_name": "Travelly Landing Page",
-            "description": "Description...",
+            "description": "This was one of the website projects for Dev Ed's \"Creative HTML & CSS\" course. Using HML and CSS we created this beautiful landing page for a fictional travel agency.",
             "technologies": ["HTML", "CSS"],
             "live_link": "https://nkriedner.github.io/travelly/",
             "github_link": "https://github.com/nkriedner/travelly",
@@ -148,7 +148,7 @@
         {
             "id": 10,
             "project_name": "Connect Four Game",
-            "description": "Description...",
+            "description": "In this famous \"Connect Four\" browser version game you can play with someone else or against the computer. Task to win is to place four colored coins in a horizontal, vertical or diagonal row. I built this project during Spiced Academy's \"Fullstack Web Development\" Bootcamp in Berlin.",
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "https://nkriedner.github.io/connect-four-game/",
             "github_link": "https://github.com/nkriedner/connect-four-game",
@@ -162,7 +162,7 @@
         {
             "id": 11,
             "project_name": "Drawings Imageboard",
-            "description": "Description...",
+            "description": "I built this imageboard for my personal drawings using Vue.js. The visitor can upload images, view images in fullscreen and comment images. I created this during Spiced Academy's \"Fullstack Web Development\"",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -184,7 +184,7 @@
         {
             "id": 12,
             "project_name": "Online Petition",
-            "description": "Description...",
+            "description": "This fictional online petition site \"Ice cream for everyone\" is my creation for the third project task of Spiced Academy's \"Fullstack Web Development\" Bootcamp in Berlin. The visitor can register, draw a signature using the mouse and enter profile data. After signing the user can see a list of the people who signed, which can be filtered by city.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -206,7 +206,7 @@
         {
             "id": 13,
             "project_name": "Social Network",
-            "description": "Description...",
+            "description": "For the fourth project at Spiced Academy's \"Fullstack Web Development\" Bootcamp in Berlin I had to create my version of a Social Network, including registration, login, password reset, image upload, bio editor, find people functionality, friend request functionality and an online live chat.",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -230,7 +230,7 @@
         {
             "id": 14,
             "project_name": "Oboeru Guru App",
-            "description": "Description...",
+            "description": "The japanese word \"oboeru\" means \"to learn / remember\" and the \"Oboeru Guru\" is an intelligent learning app using memory cards that can store any infos you want to memorize and train (eg: words in foreign languages, keyboard shortcuts etc). The app lets you train cards and enter and save as many new cards as you like. Each card has a memory-level that rises or falls depending on wether you remember it during training. This was the final project idea that I created and presented at the graduation of Spiced Academy's \"Fullstack Web Development\" Bootcamp in Berlin. ",
             "technologies": [
                 "HTML",
                 "CSS",
@@ -252,7 +252,7 @@
         {
             "id": 15,
             "project_name": "Simon Game",
-            "description": "Description...",
+            "description": "To create a basic version of the famous \"Simon\" game was one of the project tasks for Angela Yu's \"The Complete 2020 Web Developer Bootcamp\" course at Udemy. I used HTML, CSS, JavaScript and jQuery to tackle this.",
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "https://nkriedner.github.io/simon-game/",
             "github_link": "https://github.com/nkriedner/simon-game",
@@ -266,7 +266,7 @@
         {
             "id": 16,
             "project_name": "RGB Color Guesser",
-            "description": "Description...",
+            "description": "In this little fun game your intuitive understanding of RGB color values is tested: You are presented a RGB color value and a number of color displays. You have to guess the right color... I built this as a project task for Colt Steele's \"Web Developer Bootcamp Course\" at Udemy, using HTML, CSS and JavaScript.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://nkriedner.github.io/color-game/",
             "github_link": "https://github.com/nkriedner/color-game",
@@ -280,7 +280,7 @@
         {
             "id": 17,
             "project_name": "Elena Joy Photography Site",
-            "description": "Description...",
+            "description": "This was one of the website projects for Dev Ed's \"Creative HTML & CSS\" course. Using HML and CSS we created this beautiful landing page for a fictional photographer named Elena Joy.",
             "technologies": ["HTML", "CSS"],
             "live_link": "https://nkriedner.github.io/elena-joy-photography/",
             "github_link": "https://github.com/nkriedner/elena-joy-photography",

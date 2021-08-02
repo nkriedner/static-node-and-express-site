@@ -69,6 +69,76 @@
                 "/static/images/public-api-requests3.png",
                 "/static/images/public-api-requests4.png"
             ]
+        },
+        {
+            "id": 5,
+            "project_name": "Wine Shop Site",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "http://www.weinmarie.de/",
+            "github_link": "",
+            "image_urls": [
+                "/static/images/weinmarie.JPG",
+                "/static/images/weinmarie2.png",
+                "/static/images/weinmarie3.png",
+                "/static/images/weinmarie4.png"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "Personal Profile Site",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://nkriedner.github.io/fwd-techdegree-project-1/",
+            "github_link": "https://github.com/nkriedner/fwd-techdegree-project-1",
+            "image_urls": [
+                "/static/images/personal-profile-site.JPG",
+                "/static/images/personal-profile-site2.png",
+                "/static/images/personal-profile-site3.png",
+                "/static/images/personal-profile-site4.png"
+            ]
+        },
+        {
+            "id": 7,
+            "project_name": "Mobile First Responsive Layout",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://nkriedner.github.io/fwd-techdegree-project-2/",
+            "github_link": "https://github.com/nkriedner/fwd-techdegree-project-2",
+            "image_urls": [
+                "/static/images/mobile-first-responsive-layout.JPG",
+                "/static/images/mobile-first-responsive-layout2.png",
+                "/static/images/mobile-first-responsive-layout3.png",
+                "/static/images/mobile-first-responsive-layout4.png"
+            ]
+        },
+        {
+            "id": 8,
+            "project_name": "Online Registration Form",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://nkriedner.github.io/fwd-techdegree-project-3/",
+            "github_link": "https://github.com/nkriedner/fwd-techdegree-project-3",
+            "image_urls": [
+                "/static/images/online-registration-form.JPG",
+                "/static/images/online-registration-form2.png",
+                "/static/images/online-registration-form3.png",
+                "/static/images/online-registration-form4.png"
+            ]
+        },
+        {
+            "id": 9,
+            "project_name": "Travelly Landing Page",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://nkriedner.github.io/travelly/",
+            "github_link": "https://github.com/nkriedner/travelly",
+            "image_urls": [
+                "/static/images/travelly-landing-page.JPG",
+                "/static/images/travelly-landing-page2.png",
+                "/static/images/travelly-landing-page3.png",
+                "/static/images/travelly-landing-page4.png"
+            ]
         }
     ]
 }

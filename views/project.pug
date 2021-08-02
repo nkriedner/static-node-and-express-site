@@ -28,8 +28,10 @@ block content
             li= technology
 
         //- Add the href values to the links below
-        a.btn-link(href=projects[id].live_link target="_blank") Live Demo
-        a.btn-link(href=projects[id].github_link target="_blank") GitHub Repo
+        if projects[id].live_link
+          a.btn-link(href=projects[id].live_link target="_blank") Live Demo
+        if projects[id].github_link
+          a.btn-link(href=projects[id].github_link target="_blank") GitHub Repo
 
     .project-img-box.box
 

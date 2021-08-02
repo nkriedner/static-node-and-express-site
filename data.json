@@ -46,7 +46,7 @@
             "id": 3,
             "project_name": "Game Show App",
             "description": "Description...",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
             "live_link": "https://nkriedner.github.io/oop-game-show-app/",
             "github_link": "https://github.com/nkriedner/oop-game-show-app",
             "image_urls": [
@@ -60,7 +60,12 @@
             "id": 4,
             "project_name": "Public Api Requests",
             "description": "Description...",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Fetch and Public APIs"
+            ],
             "live_link": "https://nkriedner.github.io/public-api-requests/",
             "github_link": "https://github.com/nkriedner/public-api-requests",
             "image_urls": [
@@ -138,6 +143,152 @@
                 "/static/images/travelly-landing-page2.png",
                 "/static/images/travelly-landing-page3.png",
                 "/static/images/travelly-landing-page4.png"
+            ]
+        },
+        {
+            "id": 10,
+            "project_name": "Connect Four Game",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+            "live_link": "https://nkriedner.github.io/connect-four-game/",
+            "github_link": "https://github.com/nkriedner/connect-four-game",
+            "image_urls": [
+                "/static/images/connect-four-game.JPG",
+                "/static/images/connect-four-game2.png",
+                "/static/images/connect-four-game3.png",
+                "/static/images/connect-four-game4.png"
+            ]
+        },
+        {
+            "id": 11,
+            "project_name": "Drawings Imageboard",
+            "description": "Description...",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Vue.js",
+                "Node.js",
+                "Express.js",
+                "PostgreSQL"
+            ],
+            "live_link": "https://nils-loves-to-draw.herokuapp.com/",
+            "github_link": "https://github.com/nkriedner/drawings-imageboard",
+            "image_urls": [
+                "/static/images/drawings-imageboard.JPG",
+                "/static/images/drawings-imageboard2.png",
+                "/static/images/drawings-imageboard3.png",
+                "/static/images/drawings-imageboard4.png"
+            ]
+        },
+        {
+            "id": 12,
+            "project_name": "Online Petition",
+            "description": "Description...",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Handlebars",
+                "Node.js",
+                "Express",
+                "PostgreSQL"
+            ],
+            "live_link": "https://ice-cream-for-everyone.herokuapp.com/",
+            "github_link": "https://github.com/nkriedner/online-petition",
+            "image_urls": [
+                "/static/images/online-petition.JPG",
+                "/static/images/online-petition2.png",
+                "/static/images/online-petition3.png",
+                "/static/images/online-petition4.png"
+            ]
+        },
+        {
+            "id": 13,
+            "project_name": "Social Network",
+            "description": "Description...",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node.js",
+                "Express",
+                "React.js",
+                "PostgreSQL",
+                "Redux",
+                "Web Sockets"
+            ],
+            "live_link": "",
+            "github_link": "https://github.com/nkriedner/social-network",
+            "image_urls": [
+                "/static/images/social-network.JPG",
+                "/static/images/social-network2.png",
+                "/static/images/social-network3.png",
+                "/static/images/social-network4.png"
+            ]
+        },
+        {
+            "id": 14,
+            "project_name": "Oboeru Guru App",
+            "description": "Description...",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node.js",
+                "Express",
+                "React.js",
+                "PostgreSQL"
+            ],
+            "live_link": "",
+            "github_link": "https://github.com/nkriedner/oboeru-guru",
+            "image_urls": [
+                "/static/images/oboeru-guru-app.JPG",
+                "/static/images/oboeru-guru-app2.png",
+                "/static/images/oboeru-guru-app3.png",
+                "/static/images/oboeru-guru-app4.png"
+            ]
+        },
+        {
+            "id": 15,
+            "project_name": "Simon Game",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+            "live_link": "https://nkriedner.github.io/simon-game/",
+            "github_link": "https://github.com/nkriedner/simon-game",
+            "image_urls": [
+                "/static/images/simon-game.JPG",
+                "/static/images/simon-game2.png",
+                "/static/images/simon-game3.png",
+                "/static/images/simon-game4.png"
+            ]
+        },
+        {
+            "id": 16,
+            "project_name": "RGB Color Guesser",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://nkriedner.github.io/color-game/",
+            "github_link": "https://github.com/nkriedner/color-game",
+            "image_urls": [
+                "/static/images/rgb-color-guesser.JPG",
+                "/static/images/rgb-color-guesser2.png",
+                "/static/images/rgb-color-guesser3.png",
+                "/static/images/rgb-color-guesser4.png"
+            ]
+        },
+        {
+            "id": 17,
+            "project_name": "Elena Joy Photography Site",
+            "description": "Description...",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://nkriedner.github.io/elena-joy-photography/",
+            "github_link": "https://github.com/nkriedner/elena-joy-photography",
+            "image_urls": [
+                "/static/images/elena-joy-photography.JPG",
+                "/static/images/elena-joy-photography2.png",
+                "/static/images/elena-joy-photography3.png",
+                "/static/images/elena-joy-photography4.png"
             ]
         }
     ]

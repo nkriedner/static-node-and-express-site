@@ -367,3 +367,8 @@ nav a span {
     padding: 40px 50px 30px;
     overflow: visible;
 }
+
+/* OTHER CUSTOM STYLES */
+.about-bio p {
+    padding-top: 0px;
+}

@@ -1,3 +1,6 @@
+// ******************************
+// SET UP EXPRESS AND IMPORT DATA
+// ******************************
 const express = require("express");
 const data = require("./data.json");
 
@@ -6,6 +9,9 @@ const app = express();
 app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
+// ******
+// ROUTES
+// ******
 app.get("/", (req, res) => {
     res.locals.projects = data.projects;
     res.render("index");
@@ -38,6 +44,9 @@ app.get("/error", (req, res) => {
     throw error;
 });
 
+// *************************
+// ERROR HANDLING MIDDLEWARE
+// *************************
 app.use((req, res, next) => {
     console.error("404 error handler called...");
     const err = new Error();
@@ -54,9 +63,9 @@ app.use((err, req, res, next) => {
         err.message = err.message || "Something went wrong on the server";
         res.status(err.status || 500).render("error", { err });
     }
-    // res.locals.error = err;
-    // res.status(err.status);
-    // res.render("error");
 });
 
+// ******************
+// MAKE SERVER LISTEN
+// ******************
 app.listen(3000, () => console.log("App is running on port 3000."));

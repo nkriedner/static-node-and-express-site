@@ -2,9 +2,9 @@ extends layout.pug
 
 block content 
 
-    //- h1 ERROR 500
     .error
         h1= `${err.message} (Status: ${err.status})`
+        a.btn-link(href="/") Back to Home
         br
         hr
         br

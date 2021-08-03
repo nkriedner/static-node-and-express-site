@@ -1,3 +1,10 @@
+/* Color Variables */
+:root {
+    --primary-color: hsl(0, 15%, 95%);
+    --secondary-color: black;
+    --third-color: hsl(0, 100%, 15%);
+}
+
 /*
   Main styles
 */
@@ -368,7 +375,41 @@ nav a span {
     overflow: visible;
 }
 
-/* OTHER CUSTOM STYLES */
+/* MY CUSTOM STYLES */
+.sidebar h5 {
+    font-family: "Dancing Script", cursive;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+}
+
 .about-bio p {
     padding-top: 0px;
+}
+
+.portfolio-intro h1 {
+    color: var(--third-color);
+}
+
+.cell h5 {
+    color: var(--third-color);
+    text-align: center;
+}
+body {
+    background: var(--secondary-color);
+}
+article {
+    background: var(--primary-color);
+}
+.wrapper {
+    background: var(--primary-color);
+}
+.sidebar {
+    background: var(--secondary-color);
+}
+.header {
+    background: var(--secondary-color);
+}
+.box {
+    background: var(--primary-color);
 }
